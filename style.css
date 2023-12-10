@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #828282;
+    margin: 0;
+}
+
+#main {
+    width: 626px;
+    margin: auto;
+    
+}
+
+#main img { /* Estou especificando que quero alinhar a imagem usado o ID*/
+    margin: 0 72px 32px; 
+
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: #3F3D56;
+    font-size: 32px;
+    font-weight: 500; /* Espessura da linha ou fonte*/
+    margin: 0px 16px 30px 16px;
+   
+ 
+}
+
+h1 span {
+    color: #EE24FF;
+    font-size: 32px;
+    font-weight: bold;
+}
+.primeiro-paragrafo {
+
+    width: 580px;
+
+
+}
+
+.segundo-paragrafo { /* Adicione espaço à segunda <p> usando uma classe */
+
+    width: 626px;
+    margin: 32px auto 64px; /* Ajuste o valor conforme necessário */
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+span {
+    color: #3F3D56;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#line { /*colocar linha */
+    width: 568.001px; /*Largura*/
+    height: 0px;      /*Altura*/
+    border: 1px #ECEFF2 solid; /*Criar Borda*/
+    margin: 0px auto 0px;
+
+
+    }
+
+#footer a  {
+
+   margin-left: 42px;
+   font-weight: bold; /*Deixar a borda em negrito*/
+
+}
+
+#Onda {
+
+    width: 100%;
+    height: auto;
+    fill: #3F3D56;
+    height: auto; /* Para manter a proporção da imagem */
+    display: block; /* Para remover espaços indesejados em alguns navegadores */
+    
+    
+}
+
